@@ -1,8 +1,10 @@
 +++
-title = 'Text_of_time'
-date = 2024-07-31T12:15:21+08:00
+title = 'Texture_of_time'
+date = 2024-07-31T13:00:44+08:00
 draft = false
 +++
+
+> short fiction written at Columbia Summer Camp 2023
 
 
 Before you moved to the city, your dad was a logging worker. 

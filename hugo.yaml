@@ -21,7 +21,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -68,6 +68,8 @@ params:
         url: ml
       - name: writings
         url: writings
+      - name: about
+        url: about
 
   # home-info mode
   homeInfoParams:
@@ -96,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/powerLEO101/blog/content"
+    URL: "https://github.com/powerLEO101/blog/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -121,6 +123,10 @@ menu:
       name: writings
       url: /writings/
       weight: 20
+    - identifier: about
+      name: about
+      url: /about
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
