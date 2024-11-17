@@ -4,6 +4,102 @@ date = 2024-11-17T00:05:13Z
 draft = false
 +++
 
+## [CF2037E Kachina's Favorite Binary String](https://codeforces.com/contest/2037/problem/E)
+
+/*
+   shame did not solve during competition. Just need to notice that if q(l, r - 1) < q(l, r), then v[r] must be one
+   otherwise, v[r] is zero. so n queries can figure out the entire array.
+   another thing that need to pay attention is once q(l, r) == 0, v[r - q(l, r + 1) : l] == 0, and anything that comes before that is 1
+*/
+
+```c++
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <cmath>
+#define gi get_int()
+using namespace std;
+#define int long long
+int get_int()
+{
+	int x = 0, y = 1;
+	char ch = getchar();
+	while (!isdigit(ch) && ch != '-')
+		ch = getchar();
+	if (ch == '-')
+		 y = -1, ch = getchar();
+	while (isdigit(ch))
+		x = x * 10 + ch - '0', ch = getchar();
+	return x * y;
+}
+
+const int max_n = 2e5 + 10, mod = 998244353;
+int v[max_n], ans[max_n];
+int n, m, k;
+
+/*
+   shame did not solve during competition. Just need to notice that if q(l, r - 1) < q(l, r), then v[r] must be one
+   otherwise, v[r] is zero. so n queries can figure out the entire array.
+   another thing that need to pay attention is once q(l, r) == 0, v[r - q(l, r + 1) : l] == 0, and anything that comes before that is 1
+*/
+void solve()
+{
+	n = gi;
+	int last_known = 2;
+	v[1] = 0;
+	for (int i = n; i >= 2; i--) {
+		cout << "? 1 " << i << endl;
+		cout.flush();
+		v[i] = gi;
+		if (v[i] < v[i + 1]) { // n + 1 doesnt matter
+			ans[i + 1] = 1;
+		} else {
+			ans[i + 1] = 0;
+		}
+		if (v[i] == 0) {
+			if (i == n) {
+				cout << "! IMPOSSIBLE" << endl;
+				return ;
+			}
+			int j;
+			for (j = i; j > i - v[i + 1]; j--) {
+				ans[j] = 0;
+			}
+			for (; j >= 1; j--) {
+				ans[j] = 1;
+			}
+			cout << "! ";
+			for (j = 1; j <= n; j++) {
+				cout << ans[j];
+			}
+			cout << endl;
+			return ;
+		}
+	}
+	ans[2] = 1;
+	ans[1] = 0;
+	cout << "! ";
+	for (int j = 1; j <= n; j++) {
+		cout << ans[j];
+	}
+	cout << endl;
+}
+
+signed main()
+{
+	// freopen("code.in", "r", stdin);
+	// freopen("code.out", "w", stdout);
+	int T = gi;
+	while (T--) {
+		solve();
+	}
+	return 0;
+}
+```
+
 ## [CF2030D QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D)
 
 /*
