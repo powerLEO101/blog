@@ -5,6 +5,7 @@ draft = false
 +++
 
 ## [CF2030D QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D)
+
 /*
    RL can be convert into 0/1 arrays. which will create multiple blocks. number cannot move past a block that has LR.
    if a number need to move from one block to another, its imposible. otherwise the movement within blocks are free
@@ -104,6 +105,145 @@ int main()
 {
 	freopen("code.in", "r", stdin);
 	// freopen("code.out", "w", stdout);
+	int T = gi;
+	while (T--) {
+		solve();
+	}
+	return 0;
+}
+```
+
+## [CF2030E MEXimize the Score](https://codeforces.com/contest/2030/problem/E)
+
+/*
+   Formalize the question: for a given subsequence, the best possible subset arrangement is [0, 1, 2, ...], [0, ...], in increasing order.
+   Need to notice: the contribution of a subset is the length of the longest continuous prefix from 0. anything after the prefix does not matter. 
+   Therefore, we can view it as that each element in the longest continous prefix contribute 1 to the final answer.
+   Now look at all possible combinations: we don't look at indivdual numbers, we look at the total number of a specific number, total_cnt[x]
+   For some x with cnt[x] (cnt[x] < total_cnt[x]) to make contribution to the final answer, we need to put them in a subseuqnce such that all numbers that comes before x have a cnt larger than cnt[x]
+   We can make some very complicated combinatorics here, or we make can make a dp to make the problem simpler:
+   f[i][j] represent the number of subsequence such that we only use numbers <= i, and the smallest cnt occurence of a number is j. therefore the contribution of number i with cnt of j can be counted toward the final answer
+   we can transition this in 2 ways:
+		- the current number i occurs j times -> we've set the min value of the subsequence, so all other numbers before i only need to occur more than j + 1 times (we handle j times in the second case) -> can be transitioned from f[i - 1][k | k > j && k < reasonable_cnt]
+		- the current number i occurs more than j times, so we need to have some value before i occur j times (must) -> can be transitioned from f[i - 1][j]
+	there are some other implementation details that need to be considered.
+*/
+
+```c++
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <string>
+#define gi get_int()
+using namespace std;
+#define int long long
+int get_int()
+{
+	int x = 0, y = 1;
+	char ch = getchar();
+	while (!isdigit(ch) && ch != '-')
+		ch = getchar();
+	if (ch == '-')
+		 y = -1, ch = getchar();
+	while (isdigit(ch))
+		x = x * 10 + ch - '0', ch = getchar();
+	return x * y;
+}
+
+const int max_n = 2e5 + 10, mod = 998244353;
+int v[max_n], f[max_n], fact[max_n], ifact[max_n], pre_c[max_n], pre_f[max_n];
+
+int C(int n, int m)
+{
+	if (m > n) {
+		return 0;
+	}
+	return (fact[n] * ifact[m] % mod) * ifact[n - m] % mod;
+}
+
+int qpow(int x, int p)
+{
+	int ans = 1, base = x;
+	while (p != 0) {
+		if (p & 1) {
+			ans = ans * base % mod;
+		}
+		base = base * base % mod;
+		p >>= 1;
+	}
+	return ans;
+}
+
+/*
+   Formalize the question: for a given subsequence, the best possible subset arrangement is [0, 1, 2, ...], [0, ...], in increasing order.
+   Need to notice: the contribution of a subset is the length of the longest continuous prefix from 0. anything after the prefix does not matter. 
+   Therefore, we can view it as that each element in the longest continous prefix contribute 1 to the final answer.
+   Now look at all possible combinations: we don't look at indivdual numbers, we look at the total number of a specific number, total_cnt[x]
+   For some x with cnt[x] (cnt[x] < total_cnt[x]) to make contribution to the final answer, we need to put them in a subseuqnce such that all numbers that comes before x have a cnt larger than cnt[x]
+   We can make some very complicated combinatorics here, or we make can make a dp to make the problem simpler:
+   f[i][j] represent the number of subsequence such that we only use numbers <= i, and the smallest cnt occurence of a number is j. therefore the contribution of number i with cnt of j can be counted toward the final answer
+   we can transition this in 2 ways:
+		- the current number i occurs j times -> we've set the min value of the subsequence, so all other numbers before i only need to occur more than j + 1 times (we handle j times in the second case) -> can be transitioned from f[i - 1][k | k > j && k < reasonable_cnt]
+		- the current number i occurs more than j times, so we need to have some value before i occur j times (must) -> can be transitioned from f[i - 1][j]
+	there are some other implementation details that need to be considered.
+*/
+void solve()
+{
+	int n = gi;
+	for (int i = 0; i < n; i++) {
+		v[i] = 0;
+		f[i] = 0;
+	}
+	for (int i = 0; i < n; i++) {
+		v[gi] += 1;
+	}
+	int ans = 0, remain = n - v[0];
+	for (int i = 1; i <= v[0]; i++) {
+		f[i] = C(v[0], i);
+		ans = (ans + f[i] * qpow(2, remain) % mod * i) % mod;
+	}
+	for (int i = 1; i < n; i++) {
+		remain -= v[i];
+		pre_c[1] = C(v[i], 1);
+		for (int j = 2; j <= v[i]; j++) {
+			pre_c[j] = (pre_c[j - 1] + C(v[i], j)) % mod;
+		}
+		pre_f[1] = f[1];
+		for (int j = 2; j <= v[i - 1]; j++) {
+			pre_f[j] = (pre_f[j - 1] + f[j]) % mod;
+		}
+		for (int j = 1; j <= v[i]; j++) {
+			int tmp1 = (pre_f[v[i - 1]] - pre_f[j] + mod) % mod;
+			tmp1 = (tmp1 * C(v[i], j)) % mod;
+			int tmp2 = (pre_c[v[i]] - pre_c[j - 1] + mod) % mod;
+			tmp2 = (tmp2 * f[j]) % mod;
+			f[j] = (tmp1 + tmp2) % mod;
+			if (v[i - 1] < j) f[j] = 0;
+			ans = (ans + f[j] * qpow(2, remain) % mod * j % mod) % mod;
+		}
+	}
+	cout << ans << endl;
+}
+
+void prep() 
+{
+	ifact[0] = 1;
+	fact[1] = 1;
+	for (int i = 2; i < max_n; i++) {
+		fact[i] = fact[i - 1] * i % mod;
+	}
+	for (int i = 1; i < max_n; i++) {
+		ifact[i] = qpow(fact[i], mod - 2);
+	}
+}
+
+signed main()
+{
+	freopen("code.in", "r", stdin);
+	// freopen("code.out", "w", stdout);
+	prep();
 	int T = gi;
 	while (T--) {
 		solve();

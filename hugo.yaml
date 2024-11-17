@@ -68,8 +68,6 @@ params:
         url: ml
       - name: writings
         url: writings
-      - name: about
-        url: about
       - name: cp
         url: cp
 
@@ -120,6 +118,10 @@ menu:
     - identifier: machine learning
       name: machine learning
       url: /ml/
+      weight: 10
+    - identifier: competitive programming
+      name: competitive programming
+      url: /cp/
       weight: 10
     - identifier: writings
       name: writings
