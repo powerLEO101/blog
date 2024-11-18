@@ -43,7 +43,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://media.licdn.com/dms/image/D4E03AQH7zz68JBRbdw/profile-displayphoto-shrink_200_200/0/1719835705516?e=1727913600&v=beta&t=vPVYR_P09rocyJZ6N4VjyPQLz8LD5IDmMmscI5vSnk0"
+    favicon: "https://i.imgur.com/VscYSEl.jpeg"
     # favicon16x16: "<link / abs url>"
     # favicon32x32: "<link / abs url>"
     # apple_touch_icon: "<link / abs url>"
@@ -58,15 +58,15 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Zile (Leo) Huang"
-    subtitle: "I am a student at NYU majoring in CS.\n I do some kaggle and some writing."
-    imageUrl: "https://media.licdn.com/dms/image/D4E03AQH7zz68JBRbdw/profile-displayphoto-shrink_200_200/0/1719835705516?e=1727913600&v=beta&t=vPVYR_P09rocyJZ6N4VjyPQLz8LD5IDmMmscI5vSnk0"
+    subtitle: "I am a student at NYU majoring in CS."
+    imageUrl: "https://i.imgur.com/VscYSEl.jpeg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: Leo
     buttons:
-      - name: machine learning
+      - name: ml
         url: ml
-      - name: writings
+      - name: writing
         url: writings
       - name: cp
         url: cp
