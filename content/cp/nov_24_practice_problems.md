@@ -100,6 +100,133 @@ signed main()
 }
 ```
 
+## [CF2037G Natlan Exploring](https://codeforces.com/contest/2037/problem/G)
+
+/*
+   A very simple dp is f[i] is the number of path to go to num[i], and can be transitioned from everything before with gcd != 0
+   however, this is too slow. to optimize this: take the prefix sum of f[i] with the same prime factors (the multiplicity does not matter), and use inclusion-exclusion rule to remove redundancy.
+*/
+
+```c++
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <cmath>
+#define gi get_int()
+using namespace std;
+#define int long long
+int get_int()
+{
+	int x = 0, y = 1;
+	char ch = getchar();
+	while (!isdigit(ch) && ch != '-')
+		ch = getchar();
+	if (ch == '-')
+		 y = -1, ch = getchar();
+	while (isdigit(ch))
+		x = x * 10 + ch - '0', ch = getchar();
+	return x * y;
+}
+
+const int max_n = 1e6 + 10, mod = 998244353;
+int v[max_n], f[max_n], not_prime[max_n];
+int n, m, k;
+vector<int> prime_numbers;
+
+void factorize(int x, vector<int> &fact)
+{
+	for (int one_prime = 2; one_prime * one_prime <= x; one_prime++) {
+		if (x % one_prime != 0) {
+			continue;
+		}
+		fact.push_back(one_prime);
+		while (x % one_prime == 0) {
+			x /= one_prime;
+		}
+	}
+	if (x != 1) {
+		fact.push_back(x);
+	}
+}
+
+/*
+   A very simple dp is f[i] is the number of path to go to num[i], and can be transitioned from everything before with gcd != 0
+   however, this is too slow. to optimize this: take the prefix sum of f[i] with the same prime factors (the multiplicity does not matter), and use inclusion-exclusion rule to remove redundancy.
+*/
+void solve()
+{
+	int n = gi;
+	for (int i = 0; i < n; i++) {
+		v[i] = gi;
+	}
+	int ans;
+	for (int i = 0; i < n; i++) {
+		vector<int> factors;
+		factorize(v[i], factors);
+		ans = 0;
+		for (int j = 1; j < (1 << factors.size()); j++) {
+			int product = 1, sum = 0;
+			for (int k = 0; k < factors.size(); k++) {
+				if ((j >> k) & 1) {
+					product *= factors[k];
+					sum += ((j >> k) & 1);
+				}
+			}
+			if (sum % 2 == 0) {
+				ans -= f[product];
+				ans += mod;
+				ans %= mod;
+			} else {
+				ans += f[product];
+				ans %= mod;	
+			}
+		}
+		/*
+		for (int factor : factors) {
+			cout << factor << ' ';
+		}
+		*/
+		for (int j = 1; j < (1 << factors.size()); j++) {
+			int product = 1;
+			for (int k = 0; k < factors.size(); k++) {
+				if ((j >> k) & 1) {
+					product *= factors[k];
+				}
+			}
+			f[product] += (i == 0 ? 1 : ans);
+			f[product] %= mod;
+		}
+	}
+	cout << ans << endl;
+}
+
+signed main()
+{
+	freopen("code.in", "r", stdin);
+	// freopen("code.out", "w", stdout);
+	for (int i = 2; i <= max_n - 10; i++) {
+		if (not_prime[i] == 1) continue;
+		for (int j = 2; j * i <= max_n - 10; j++) {
+			not_prime[j * i] = 1;
+		}
+	}
+	for (int i = 2; i <= 1000; i++) {
+		if (not_prime[i] == 0) {
+			prime_numbers.push_back(i);
+		}
+	}
+	int T = 1;
+	while (T--) {
+		solve();
+	}
+	return 0;
+}
+
+```
+
 ## [CF2030D QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D)
 
 /*
