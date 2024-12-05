@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Zile (Leo) Huang"
-    subtitle: "I am a student at NYU majoring in CS."
+    subtitle: "I am a student at NYU double majoring in CS and Philosophy."
     imageUrl: "https://i.imgur.com/VscYSEl.jpeg"
     imageWidth: 200
     imageHeight: 200
