@@ -70,6 +70,8 @@ params:
         url: writings
       - name: cp
         url: cp
+      - name: CV
+        url: CV.pdf
 
   # home-info mode
   homeInfoParams:
