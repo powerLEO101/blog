@@ -68,7 +68,7 @@ params:
         url: ml
       - name: writing
         url: writings
-      - name: cp
+      - name: programming
         url: cp
       - name: CV
         url: CV.pdf
