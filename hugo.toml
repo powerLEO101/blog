@@ -1,0 +1,54 @@
+baseURL = 'https://zile.lol'
+languageCode = 'en-us'
+title = 'LeoH'
+theme = 'paper'
+
+[menus]
+	[[menu.main]]
+		name = 'about'
+		url = '/about/'
+		weight = 1
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
+  github = 'powerLEO101'                 # github.com/YOUR_GITHUB_ID
+  # instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'llleeeoooh'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  # threads = '@YOUR_THREADS_ID'              # threads.net/@YOUR_THREADS_ID
+  # bluesky = 'YOUR_BLUESKY_ID'               # https://bsky.app/profile/YOUR_BLUESKY_ID
+  # rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'powerleo101@gmail.com'                 # gravatar email or image url
+  name = 'LeoH'
+  bio = 'I am a student at New York University'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = false                       # show monochrome dark mode icon
+  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  localKatex = false                        # use local KaTeX js/css instead of CDN
+# graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  favicon = "https://avatars.githubusercontent.com/u/30822620?s=96&v=4"                   # customize the default favicon
+  appleTouchIcon = "https://avatars.githubusercontent.com/u/30822620?s=96&v=4"   # customize the default Apple touch icon
+
+  # RTL supprot
+  direction = "ltr"                         # RTL support for Right-to-left languages
+
+  # giscus
+[params.giscus]
+  repo = 'powerLEO101/giscus-repo'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOO7NEUw'
+  category = 'Announcements'
+  categoryId = 'DIC_kwDOO7NEU84CrdTQ'
+  mapping = 'pathname'
+  theme = 'light'
+  lang = 'en'

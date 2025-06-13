@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cps on LeoH</title>
+    <link>http://localhost:1313/cp/</link>
+    <description>Recent content in Cps on LeoH</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2024 00:05:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/cp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nov_24_practice_problems</title>
+      <link>http://localhost:1313/cp/nov_24_practice_problems/</link>
+      <pubDate>Sun, 17 Nov 2024 00:05:13 +0000</pubDate>
+      <guid>http://localhost:1313/cp/nov_24_practice_problems/</guid>
+      <description>CF2037E Kachina&amp;rsquo;s Favorite Binary String /* shame did not solve during competition. Just need to notice that if q(l, r - 1) &amp;lt; q(l, r), then v[r] must be one otherwise, v[r] is zero. so n queries can figure out the entire array. another thing that need to pay attention is once q(l, r) == 0, v[r - q(l, r + 1) : l] == 0, and anything that comes before that is 1 */</description>
+    </item>
+  </channel>
+</rss>

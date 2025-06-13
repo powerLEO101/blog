@@ -1,5 +1,5 @@
 +++
-title = 'Crochet of a Heart String'
+title = '[story] Crochet of a Heart String'
 date = 2025-02-20T12:43:23+08:00
 draft = false
 +++

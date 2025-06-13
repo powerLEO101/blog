@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zile (Leo) Huang</title>
+    <title>LeoH</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Zile (Leo) Huang</description>
-    <generator>Hugo -- 0.130.0</generator>
+    <description>Recent content on LeoH</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jul 2024 13:00:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jun 2025 12:43:23 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Texture_of_time</title>
+      <title>LeoH</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 13 Jun 2025 12:43:23 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I am a student at NYU. I am studying Math and Computer Science. I want to double major or minor in Philosophy.</description>
+    </item>
+    <item>
+      <title>[story] Crochet of a Heart String</title>
+      <link>http://localhost:1313/writings/big_red_crochet_on_a_heart_string/</link>
+      <pubDate>Thu, 20 Feb 2025 12:43:23 +0800</pubDate>
+      <guid>http://localhost:1313/writings/big_red_crochet_on_a_heart_string/</guid>
+      <description>lazers. lazers everywhere. on the ground. green, red, invisible lazers shoot up from the crack of the road, putting the life of homeless people in peril. if you ask me, i say they are the most secretive people on earth, more than donald trump, or oil kings in saudi arabia. in black and white we walk in night of new york city. in night time of other colors, the heart string, red string pulling my heart to places.</description>
+    </item>
+    <item>
+      <title>[story] Scam Calls</title>
+      <link>http://localhost:1313/writings/scam_calls/</link>
+      <pubDate>Wed, 31 Jul 2024 13:09:32 +0800</pubDate>
+      <guid>http://localhost:1313/writings/scam_calls/</guid>
+      <description>In-class writing practice at Columbia Summer Camp 2023&#xA;I did not remember since when I stopped receiving calls from NYPD Chinese subbranch.&#xA;One afternoon before exam a middle-aged Chinese man from New York Police Department asked me about a phone number that I never registered. Perplexed by my “criminal history” and the “potential outcome” of not taking action, I gave out all the information operator Wu inquired – my name, my email address, and the first several letters of my home address.</description>
+    </item>
+    <item>
+      <title>[story] Texture of Time</title>
       <link>http://localhost:1313/writings/text_of_time/</link>
       <pubDate>Wed, 31 Jul 2024 13:00:44 +0800</pubDate>
       <guid>http://localhost:1313/writings/text_of_time/</guid>
-      <description>short fiction written at Columbia Summer Camp 2023
-Before you moved to the city, your dad was a logging worker.
-He was a logging worker fourteen years before you were born and never changed his career since. His obsession with wood was known to the whole village. Your neighbor once told you jokingly: even when your mom was giving labor, your dad wanted to finish chopping the last piece of wood because he was “really feeling it.</description>
+      <description>short fiction written at Columbia Summer Camp 2023&#xA;Before you moved to the city, your dad was a logging worker.&#xA;He was a logging worker fourteen years before you were born and never changed his career since. His obsession with wood was known to the whole village. Your neighbor once told you jokingly: even when your mom was giving labor, your dad wanted to finish chopping the last piece of wood because he was “really feeling it.</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 31 Jul 2024 12:53:29 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>I am a undergraduate student at NYU learning Computer and Data Science. I graduated from Kent School in 2024.
-I love machine learning. After completing a research apprenticeship with a Doctorate student at Cambridge, I published a paper about self-supervised learning with metadata from MRI scans at Horizon in-house journal. After that, I started competiting on Kaggle, a machine learning competition platform. Now I have one silve medal.
-I love writing.</description>
-    </item>
-    <item>
-      <title>Intended_readings_for_july_2024</title>
-      <link>http://localhost:1313/ml/intended_readings_for_july_2024/</link>
-      <pubDate>Wed, 31 Jul 2024 12:48:54 +0800</pubDate>
-      <guid>http://localhost:1313/ml/intended_readings_for_july_2024/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>Liar</title>
+      <title>[story] Liar</title>
       <link>http://localhost:1313/writings/liar/</link>
       <pubDate>Wed, 31 Jul 2024 12:43:23 +0800</pubDate>
       <guid>http://localhost:1313/writings/liar/</guid>
-      <description>short fiction written at Columbia Summer Camp 2022
-Mr. R was a born liar.
-Mr. R learned how to lie when he was only six months old. When other babies were crying and begging for milk, Mr. R already mastered how to fake calmness, and then cry, so his parents would say, “this baby is promising,” and give him anything he wanted, milk, toys, and praises. Mr. R was most proud of the lie he told when he immigrated to the US.</description>
+      <description>short fiction written at Columbia Summer Camp 2022&#xA;Mr. R was a born liar.&#xA;Mr. R learned how to lie when he was only six months old. When other babies were crying and begging for milk, Mr. R already mastered how to fake calmness, and then cry, so his parents would say, “this baby is promising,” and give him anything he wanted, milk, toys, and praises. Mr. R was most proud of the lie he told when he immigrated to the US.</description>
     </item>
     <item>
-      <title>Lonesome_dreams</title>
+      <title>[story] Lonesome Dreams</title>
       <link>http://localhost:1313/writings/lonesome_dreams/</link>
       <pubDate>Wed, 31 Jul 2024 12:38:42 +0800</pubDate>
       <guid>http://localhost:1313/writings/lonesome_dreams/</guid>
-      <description>short fiction written at Columbia Summer Camp 2022
-My mom told me before she was dead, that a heart attack felt like something controlling your lung, so you could only breathe out but not breathe in. Someone with a heart attack dies painfully and slowly. The process may only cost minutes in others’ eyes, but to the patients, the time can be stretched, and it can take years. I always wanted to feel a heart attack in one of my dreams, so that I won’t be nervous if I actually get one.</description>
+      <description>short fiction written at Columbia Summer Camp 2022&#xA;My mom told me before she was dead, that a heart attack felt like something controlling your lung, so you could only breathe out but not breathe in. Someone with a heart attack dies painfully and slowly. The process may only cost minutes in others’ eyes, but to the patients, the time can be stretched, and it can take years. I always wanted to feel a heart attack in one of my dreams, so that I won’t be nervous if I actually get one.</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 +++
-title = 'Texture_of_time'
+title = '[story] Texture of Time'
 date = 2024-07-31T13:00:44+08:00
 draft = false
 +++

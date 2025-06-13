@@ -1,5 +1,5 @@
 +++
-title = 'Lonesome_dreams'
+title = '[story] Lonesome Dreams'
 date = 2024-07-31T12:38:42+08:00
 draft = false
 +++
