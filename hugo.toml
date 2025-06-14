@@ -1,6 +1,6 @@
 baseURL = 'https://zile.lol'
 languageCode = 'en-us'
-title = 'LeoH'
+title = 'Zile'
 theme = 'paper'
 
 [menus]
@@ -11,7 +11,7 @@ theme = 'paper'
 
 [params]
   # color style
-  color = 'linen'                           # linen, wheat, gray, light
+  color = 'wheat'                           # linen, wheat, gray, light
 
   # header social icons
   # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
@@ -25,7 +25,7 @@ theme = 'paper'
 
   # home page profile
   avatar = 'powerleo101@gmail.com'                 # gravatar email or image url
-  name = 'LeoH'
+  name = 'Zile'
   bio = 'I am a student at New York University'
 
 
