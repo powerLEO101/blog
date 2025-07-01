@@ -31,6 +31,7 @@ theme = 'paper'
   avatar = 'powerleo101@gmail.com'                 # gravatar email or image url
   name = 'Zile'
   bio = 'I am a student at New York University'
+	rss = true
 
 
   # misc
