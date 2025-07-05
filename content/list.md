@@ -15,6 +15,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Asteriod City__| Jun/30/25 | 3.5 | 1 | Life a play in a play in which you find love. |
 | __The F1 Movie__ | Jun/30/25 | 3.5 | 1 | Definitely has its flaws. Dialog feels like bad anime, is mechenical. But the overall movie is surprisingly engaging and entertaining for a non-F1 fan like me. |
 | __Sicario__ | Jun/26/25 | 4 | 1 | Cold blooded, good thriller, good match with Villenueve's visual style. Was tense the entire time. Alejandro reminds me of Anton Chigurh. |
 | __Reservoir Dogs__ | Jun/12/25 | 4 | 2 | Reasonably, not Quentin's best, but still, extremely powerful, and legendary. |
