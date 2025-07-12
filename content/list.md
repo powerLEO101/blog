@@ -15,6 +15,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __The Usual Suspect__| Jul/11/25 | 4 | 1 | Good. |
 | __The French Dispatch__| Jul/10/25 | 4.5 | 1 | Need to rewatch. The prisoner painter story. Wow. |
 | __Asteriod City__| Jun/30/25 | 4 | 1 | Life a play in a play in which you find love. |
 | __The F1 Movie__ | Jun/30/25 | 3 | 1 | Definitely has its flaws. Dialog feels like bad anime, is mechenical. But the overall movie is surprisingly engaging and entertaining for a non-F1 fan like me. |
@@ -22,3 +23,9 @@ draft = false
 | __Reservoir Dogs__ | Jun/12/25 | 4 | 2 | Reasonably, not Quentin's best, but still, extremely powerful, and legendary. |
 | __The Life of Chuck__ | Jun/10/25 | 4.5 | 1 | Bullet in the Brain. |
 | __The Phoenician Scheme__ | Jun/6/25 | 4 | 1 | Need to rewatch. |
+
+## Worthwhile Papers
+
+| Name | Domain | Comment |
+|:--:|:--:|:--:|
+| [A Comparison of Software and Hardware Techniques for x86 Virtualization](/adams06vmware.pdf) | VM | Describes techniques for virtualzation. Some techniques and benchmarks are out dated due to hardware advancement. But is regarded as the virtualzation paper. |
