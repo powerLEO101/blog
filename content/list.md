@@ -15,6 +15,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Superman__| Jul/14/25 | 4 | 1 | It is amazing. It doesn't even matter what the plot is. It just makes me hopeful |
 | __The Usual Suspect__| Jul/11/25 | 4 | 1 | Good. |
 | __The French Dispatch__| Jul/10/25 | 4.5 | 1 | Need to rewatch. The prisoner painter story. Wow. |
 | __Asteriod City__| Jun/30/25 | 4 | 1 | Life is a play in a play in which you find love. |
