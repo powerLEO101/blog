@@ -15,6 +15,8 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Eddington__| Jul/21/25 | 4 | 1 | Explaining yourself (especially online) in the age of information is a negative feedback loop. |
+| __No Country for Old Man__| Jul/19/25 | 4.5 | 4 | I disagree that it's a movie about the evil. It is about so many things. This time it struck me as a movie about nature, of which ugliness below the man-made abstraction exists. |
 | __Superman__| Jul/14/25 | 4 | 1 | It is amazing. It doesn't even matter what the plot is. It just makes me hopeful |
 | __The Usual Suspect__| Jul/11/25 | 4 | 1 | Good. |
 | __The French Dispatch__| Jul/10/25 | 4.5 | 1 | Need to rewatch. The prisoner painter story. Wow. |
