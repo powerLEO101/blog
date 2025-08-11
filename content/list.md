@@ -15,7 +15,8 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
-| __Oh, Hi!__| Jul/28/25 | 3.5 | 1 | Not bad. |
+| __Freakier Firday__| Aug/10/25 | 3.5 | 1 | Not bad. |
+| __Oh, Hi!__| Jul/28/25 | 4 | 1 | Damn relationships are messy. |
 | __Sorry, Baby__| Jul/24/25 | 4.5 | 1 | The trauma that hurts the most turns into humor, through time, maybe. |
 | __Eddington__| Jul/21/25 | 4 | 1 | Explaining yourself (especially online) in the age of information is a negative feedback loop. |
 | __No Country for Old Man__| Jul/19/25 | 4.5 | 4 | I disagree that it's a movie about the evil. It is about so many things. This time it struck me as a movie about nature, of which ugliness below the man-made abstraction exists. |
