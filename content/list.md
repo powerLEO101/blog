@@ -8,7 +8,7 @@ draft = false
 
 | Title | Date | Out of 5 | Comment |
 |:--:|:--:|:--:|:--|
-| __Life of a Klansman__ | Aug/13/25 | 3 | Stopped at 200 pages. Too needlessly verbose. | 
+| __Life of a Klansman__ | Aug/13/25 | 3 | Stopped at 200 pages. Good content but (for me) too needlessly verbose... | 
 | __The Idea Factory__ | Jun/21/25 | 5 | How to model success? | 
 | __The Soul of a New Machine__ | May/1/25 | 5 | Romanticized computer for me. | 
 
