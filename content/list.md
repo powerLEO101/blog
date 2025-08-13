@@ -15,6 +15,8 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Se7en__| Aug/13/25 | 4.5 | 1 | I always thought something logical should be something beautiful. Many are. Math is. But the statement is not always true. Something can also be strictly logical, if not genius, but haunting at the same time. The problem is, unlike emotion, logic isn't a product of evolution. No one says logic should make sense. |
+| __Theater Camp__| Aug/12/25 | 5 | 1 | Need of something pure and beautiful in life. |
 | __Freakier Firday__| Aug/10/25 | 3.5 | 1 | Not bad. |
 | __Oh, Hi!__| Jul/28/25 | 4 | 1 | Damn relationships are messy. |
 | __Sorry, Baby__| Jul/24/25 | 4.5 | 1 | The trauma that hurts the most turns into humor, through time, maybe. |
@@ -23,7 +25,7 @@ draft = false
 | __Superman__| Jul/14/25 | 4 | 1 | It is amazing. It doesn't even matter what the plot is. It just makes me hopeful |
 | __The Usual Suspect__| Jul/11/25 | 4 | 1 | Good. |
 | __The French Dispatch__| Jul/10/25 | 4.5 | 1 | Need to rewatch. The prisoner painter story. Wow. |
-| __Asteriod City__| Jun/30/25 | 4 | 1 | Life is a play in a play in which you find love. |
+| __Asteriod City__| Jun/30/25 | 5 | 1 | Life is a play in a play in which you find love. |
 | __The F1 Movie__ | Jun/30/25 | 3 | 1 | Definitely has its flaws. Dialog feels like bad anime, is mechenical. But the overall movie is surprisingly engaging and entertaining for a non-F1 fan like me. |
 | __Sicario__ | Jun/26/25 | 4 | 1 | Cold blooded, good thriller, good match with Villenueve's visual style. Was tense the entire time. Alejandro reminds me of Anton Chigurh. |
 | __Reservoir Dogs__ | Jun/12/25 | 4 | 2 | Reasonably, not Quentin's best, but still, extremely powerful, and legendary. |
