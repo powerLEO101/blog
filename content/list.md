@@ -8,7 +8,8 @@ draft = false
 
 | Title | Date | Out of 5 | Comment |
 |:--:|:--:|:--:|:--|
-| __Life of a Klansman__ | Aug/13/25 | 4 | Stopped at 200 pages. Good book actually. But too needlessly verbose and I lost momentum... | 
+| __Do Androids Dreams of Eletric Sheep?__ | Aug/28/25 | 5 | So relevant now. So many complicated logos and echos that seemingly contradict and I can't understand. | 
+| __Life of a Klansman__ | Aug/13/25 | 4 | Not bad. | 
 | __The Idea Factory__ | Jun/21/25 | 5 | How to model success? | 
 | __The Soul of a New Machine__ | May/1/25 | 5 | Romanticized computer for me. | 
 
@@ -16,6 +17,8 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Juno__ | Aug/30/25 | 4 | 1 | How nonchalante. Good. |
+| __September 5__ |  Aug/20/25 | 3 | 1 | Tried too hard |
 | __Se7en__| Aug/13/25 | 4.5 | 1 | I always thought something logical should be something beautiful. Many are. Math is. But the statement is not always true. Something can also be strictly logical, if not genius, but haunting at the same time. The problem is, unlike emotion, logic isn't a product of evolution. No one says logic should make sense. |
 | __Theater Camp__| Aug/12/25 | 5 | 1 | Need of something pure and beautiful in life. |
 | __Freakier Firday__| Aug/10/25 | 3.5 | 1 | Not bad. |
