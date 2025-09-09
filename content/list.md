@@ -17,7 +17,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
-| __The Roses__ | Sep/5/25 | 4.5 | 1 | Till death do us apart. |
+| __The Roses__ | Sep/5/25 | 4.5 | 1 | Till death do us apart. Fighting means love. |
 | __Juno__ | Aug/30/25 | 4 | 1 | How nonchalante. Good. |
 | __September 5__ |  Aug/20/25 | 3 | 1 | Tried too hard |
 | __Se7en__| Aug/13/25 | 4.5 | 1 | I always thought something logical should be something beautiful. Many are. Math is. But the statement is not always true. Something can also be strictly logical, if not genius, but haunting at the same time. The problem is, unlike emotion, logic isn't a product of evolution. No one says logic should make sense. |
