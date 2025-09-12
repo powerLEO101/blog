@@ -17,6 +17,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Baby Driver__ | Sep/11/25 | 4.5 | 1 | Love. |
 | __The Roses__ | Sep/5/25 | 4.5 | 1 | Till death do us apart. Fighting means love. |
 | __Juno__ | Aug/30/25 | 4 | 1 | How nonchalante. Good. |
 | __September 5__ |  Aug/20/25 | 3 | 1 | Tried too hard |
