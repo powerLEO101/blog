@@ -8,6 +8,7 @@ draft = false
 
 | Title | Date | Out of 5 | Comment |
 |:--:|:--:|:--:|:--|
+| __In Search of Lost Time: Swanns Way__ | Sep/20/25 | 5 | Love and nausea hurts... | 
 | __Do Androids Dreams of Eletric Sheep?__ | Aug/28/25 | 5 | So relevant now. So many complicated logos and echos that seemingly contradict and I can't understand. | 
 | __Life of a Klansman__ | Aug/13/25 | 4 | Not bad. | 
 | __The Idea Factory__ | Jun/21/25 | 5 | How to model success? | 
