@@ -17,6 +17,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Caught Stealing__ | Sep/18/25 | NA | 1 | Caught having nausea. |
 | __Baby Driver__ | Sep/11/25 | 4.5 | 1 | Love. |
 | __The Roses__ | Sep/5/25 | 4.5 | 1 | Till death do us apart. Fighting means love. |
 | __Juno__ | Aug/30/25 | 4 | 1 | How nonchalante. Good. |
