@@ -18,6 +18,11 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Springsteen: Deliver Me From Nowhere__ | Forogt | 3 | 1 | Probably for the lack of context, I didn't like it that much. |
+| __If I Had Legs I'd Kick You__ | Forogt | 4.5 | 1 | Suffocatingly real. Modern Greek tragedy. "It's not your fault." |
+| __Roofman__ | Forogt | 4 | 1 | Human connection. Human distance. The feeling of undeservingness. |
+| __Boogie Nights__ | Forgot | 4.5 | 1 | "We will make cinema history." |
+| __One Battle After Another__ | Forgot | 5 | 1 | Insanely good. |
 | __Caught Stealing__ | Sep/18/25 | NA | 1 | Caught having nausea. |
 | __Baby Driver__ | Sep/11/25 | 4.5 | 1 | Love. |
 | __The Roses__ | Sep/5/25 | 4.5 | 1 | Till death do us apart. Fighting means love. |
