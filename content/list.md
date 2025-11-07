@@ -8,6 +8,7 @@ draft = false
 
 | Title | Date | Out of 5 | Comment |
 |:--:|:--:|:--:|:--|
+| __In Search of Lost Time: Within a Budding Grove; Guermantes' Way; Sodem and Gomorrah__ | Nov/1/25 | 5 | How time flies... | 
 | __In Search of Lost Time: Swanns Way__ | Sep/20/25 | 5 | Love and nausea hurts... | 
 | __Do Androids Dreams of Eletric Sheep?__ | Aug/28/25 | 5 | So relevant now. So many complicated logos and echos that seemingly contradict and I can't understand. | 
 | __Life of a Klansman__ | Aug/13/25 | 4 | Not bad. | 
@@ -18,6 +19,7 @@ draft = false
 
 | Title | Date | Out of 5 | Multiplier | Comment |
 |:--:|:--:|:--:|:--:|:--|
+| __Die My Love__ | Oct/6/25 | 4.5 | 1 | Twisted like how nature is.. |
 | __Springsteen: Deliver Me From Nowhere__ | Forogt | 3 | 1 | Probably for the lack of context, I didn't like it that much. |
 | __If I Had Legs I'd Kick You__ | Forogt | 4.5 | 1 | Suffocatingly real. Modern Greek tragedy. "It's not your fault." |
 | __Roofman__ | Forogt | 4 | 1 | Human connection. Human distance. The feeling of undeservingness. |
